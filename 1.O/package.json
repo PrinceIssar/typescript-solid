@@ -1,0 +1,15 @@
+{
+  "name": "1.o",
+  "version": "1.0.0",
+  "description": "Classes should be open for extension, but closed for modification. In more simple words you can always add new code to an object, but you should never change the design of old code.",
+  "main": "old.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
