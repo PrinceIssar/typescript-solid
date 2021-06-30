@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta
+            name="viewport"
+            content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Single responsibility principle</title>
+
+</head>
+<body>
+<h1>Single responsibility principle</h1>
+
+<img src="car.png" />
+
+<p>Car has driven <span id="miles-value">0</span> KM.</p>
+
+<audio autoplay id="car-music">
+    <source src="carmusic.wav" />
+</audio>
+
+<fieldset>
+    <legend>Music</legend>
+    <input type="range" id="music-slider" min="0" max="100" value="0" />
+
+    <button id="music-toggle">Turn music on</button>
+</fieldset>
+
+<fieldset>
+    <legend>Engine</legend>
+    <button id="engine-toggle">Turn engine on</button>
+</fieldset>
+
+<form method="post" id="add-fuel-form">
+    <fieldset>
+        <legend>Fuel</legend>
+
+        <input type="number" placeholder="Fuel in liters" id="add-fuel-input" />
+        <button type="submit">Add fuel</button>
+        <p>Fuel: <span id="fuel-level">0</span> liters</p>
+    </fieldset>
+</form>
+<script type="module" src="new.js" defer></script>
+</body>
+</html>
