@@ -1,0 +1,15 @@
+{
+  "name": "2.l",
+  "version": "1.0.0",
+  "description": "\"Objects in a program should be replaceable with instances of their subtypes without altering the correctness of that program.\" See also [design by contract](https://en.wikipedia.org/wiki/Design_by_contract).",
+  "main": "new.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
