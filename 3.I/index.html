@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Interface segregation principle</title>
+</head>
+<body>
+
+<h1>Interface segregation principle</h1>
+
+<form id="login-form">
+    <label for="password">Password:</label>
+    <input type="text" id="password" />
+
+    <fieldset>
+        <legend>Auth method</legend>
+
+        <label><input type="radio" name="type" value="password" id="typePassword" checked/> Password</label>
+        <label><input type="radio" name="type" value="google" id="typeGoogle"/> Google login</label>
+        <label><input type="radio" name="type" value="facebook" id="typeFacebook"/> Facebook login</label>
+    </fieldset>
+
+    <label><input type="checkbox" name="admin" id="loginAsAdmin"/>Login as admin</label>
+
+    <br />
+    <input type="submit" value="Login" />
+</form>
+
+<p><a href="#" id="resetPassword">Reset password</a></p>
+
+<script src="old.js"></script>
+</body>
+</html>

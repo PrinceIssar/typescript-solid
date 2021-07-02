@@ -1,0 +1,15 @@
+{
+  "name": "3.i",
+  "version": "1.0.0",
+  "description": "\"Many client-specific interfaces are better than one general-purpose interface.\"",
+  "main": "old.js",
+  "scripts": {
+    "dev": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel-bundler": "^1.12.5"
+  }
+}
